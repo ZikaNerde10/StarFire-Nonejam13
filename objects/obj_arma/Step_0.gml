@@ -1,3 +1,5 @@
+#region direcao da arma
+
 //aqui eu faco com que o X do obj_arma seja igual ao X do obj_player
 x = obj_player.x
 
@@ -24,3 +26,22 @@ else
 {
 	image_yscale = 1;
 }
+
+#endregion
+
+#region atirando
+
+var _click = mouse_check_button_pressed(mb_left);
+
+if(_click)
+{
+	var _xx = x + lengthdir_x(13,_dire);
+	var _yy = y + lengthdir_y(13,_dire);
+	
+	var _tiro = instance_create_layer(_xx,_yy,"ins_player",obj_bala)
+	_tiro.direction = _dire;
+	
+	alarm[0] = 120;
+}
+
+#endregion
