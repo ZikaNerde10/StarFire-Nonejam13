@@ -1,2 +1,2 @@
-////Movendo o y do player em -1 (para cima).
+//Movendo o Y do player na variavel velociade (para cima).
 y -= velocidade;

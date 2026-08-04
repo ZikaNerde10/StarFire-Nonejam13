@@ -1,2 +1,2 @@
-//Movendo o X do player em -1 (para esquerda).
+//Movendo o X do player na variavel velociade (para esquerda).
 x -= velocidade;
