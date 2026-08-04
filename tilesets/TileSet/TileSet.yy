@@ -1,0 +1,47 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"TileSet",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"parede","closed_edge":false,"name":"parede","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        52,53,54,55,56,57,58,59,85,86,87,88,89,90,91,92,118,119,120,121,122,123,124,125,151,152,153,154,155,
+        156,157,158,184,185,186,187,188,189,190,191,217,218,219,220,221,222,223,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"fundo","closed_edge":false,"name":"fundo","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        283,284,285,286,287,288,289,290,316,317,318,319,320,321,322,323,349,350,351,352,353,354,355,356,382,
+        383,384,385,386,387,388,389,415,416,417,418,419,420,421,422,448,449,450,451,452,453,454,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"TileSet",
+  "out_columns":26,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tilesets",
+    "path":"sprites/spr_tilesets/spr_tilesets.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":660,
+}
