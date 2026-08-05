@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fogo",
+  "%Name":"obj_area",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bala","path":"objects/obj_bala/obj_bala.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_fogo",
+  "name":"obj_area",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,15 +26,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"em_chamas","filters":[],"listItems":[],"multiselect":false,"name":"em_chamas","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fogo",
-    "path":"sprites/spr_fogo/spr_fogo.yy",
+    "name":"spr_area",
+    "path":"sprites/spr_area/spr_area.yy",
   },
   "spriteMaskId":null,
   "visible":true,
