@@ -1,1 +1,1 @@
-global.id_fogo = inst_63F5300F;
+//global.id_fogo = noone;
