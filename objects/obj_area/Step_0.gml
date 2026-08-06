@@ -10,6 +10,7 @@ else
 	instance_destroy()
 }
 
+//Faz uma lista dos objetos inflamaveis, que estao dentro da area, e coloca fogo neles.
 with (obj_inflamavel)
 {
     if (!em_chamas && place_meeting(x, y, other))
