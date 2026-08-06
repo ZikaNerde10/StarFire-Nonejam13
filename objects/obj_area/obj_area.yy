@@ -9,8 +9,8 @@
   "name":"obj_area",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_fogo",
+    "path":"folders/Objects/obj_fogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,5 +35,5 @@
     "path":"sprites/spr_area/spr_area.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -69,8 +69,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"spr_props",
-    "path":"folders/Sprites/spr_props.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

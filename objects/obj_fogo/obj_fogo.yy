@@ -10,8 +10,8 @@
   "name":"obj_fogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_fogo",
+    "path":"folders/Objects/obj_fogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,9 +27,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"em_chamas","filters":[],"listItems":[],"multiselect":false,"name":"em_chamas","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
