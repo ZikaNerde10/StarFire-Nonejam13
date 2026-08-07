@@ -1,1 +1,1 @@
-//global.id_fogo = noone;
+//global.em_chamas = false;
