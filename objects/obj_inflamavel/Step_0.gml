@@ -4,12 +4,13 @@ if(perto_fogo)
 {
 	timer_fogo++;
 	
-	if(timer_fogo >= room_speed * 5  ) //&& !em_chamas
+	if(!em_chamas && timer_fogo >= room_speed * 5)
 	{
-		em_chamas = true;
+	em_chamas = true;
+
+		var _fogo = instance_create_layer(x, y, "ins_fogo", obj_fogo);
 		
-		instance_create_layer(x,y,"ins_fogo",obj_fogo);
-		
+		_fogo.alvo = id;
 	}
 }
 else

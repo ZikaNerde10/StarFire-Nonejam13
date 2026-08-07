@@ -41,6 +41,7 @@ if(_click)
 	var _tiro = instance_create_layer(_xx,_yy,"ins_player",obj_bala)
 	_tiro.direction = _dire;
 	
+	audio_play_sound(snd_bolha,0,false);
 	
 }
 

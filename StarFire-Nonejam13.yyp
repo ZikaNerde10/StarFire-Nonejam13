@@ -58,6 +58,7 @@
     {"id":{"name":"rm_quarto","path":"rooms/rm_quarto/rm_quarto.yy",},},
     {"id":{"name":"rm_teste","path":"rooms/rm_teste/rm_teste.yy",},},
     {"id":{"name":"scr_info","path":"scripts/scr_info/scr_info.yy",},},
+    {"id":{"name":"snd_bolha","path":"sounds/snd_bolha/snd_bolha.yy",},},
     {"id":{"name":"spr_3livros_invertidos","path":"sprites/spr_3livros_invertidos/spr_3livros_invertidos.yy",},},
     {"id":{"name":"spr_3livros","path":"sprites/spr_3livros/spr_3livros.yy",},},
     {"id":{"name":"spr_3pratos","path":"sprites/spr_3pratos/spr_3pratos.yy",},},
