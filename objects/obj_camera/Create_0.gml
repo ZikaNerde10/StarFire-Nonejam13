@@ -1,3 +1,4 @@
+//setando para que o alvo da camera seja o obj_player
 alvo = obj_player;
 
 

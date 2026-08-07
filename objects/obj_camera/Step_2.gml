@@ -5,7 +5,7 @@
 
 //camera_set_view_pos(view_camera[0], x - xwidth/2, y - yheight/2);
 
-
+//fazendo o x e o y da camera ser igual a do obj_player apartir da variavel alvo
 var _x1 = alvo.x;
 var _y1 = alvo.y;
 
