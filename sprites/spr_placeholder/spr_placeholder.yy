@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"spr_fogo",
-    "path":"folders/Sprites/spr_fogo.yy",
+    "name":"spr_biblioteca",
+    "path":"folders/Sprites/spr_biblioteca.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

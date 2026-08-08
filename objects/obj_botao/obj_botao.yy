@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder",
-    "path":"sprites/spr_placeholder/spr_placeholder.yy",
+    "name":"spr_botao",
+    "path":"sprites/spr_botao/spr_botao.yy",
   },
   "spriteMaskId":null,
   "visible":true,
