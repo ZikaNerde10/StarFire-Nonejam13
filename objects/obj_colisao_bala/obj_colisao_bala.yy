@@ -6,8 +6,8 @@
   "name":"obj_colisao_bala",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_player",
-    "path":"folders/Objects/obj_player.yy",
+    "name":"obj_extras",
+    "path":"folders/Objects/obj_extras.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -55,6 +55,7 @@
     {"name":"inst_14771E3F","path":"rooms/rm_armazem/rm_armazem.yy",},
     {"name":"inst_1B8B4478","path":"rooms/rm_armazem/rm_armazem.yy",},
     {"name":"inst_250E2EFA","path":"rooms/rm_armazem/rm_armazem.yy",},
+    {"name":"inst_50114602","path":"rooms/rm_armazem/rm_armazem.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -100,6 +101,9 @@
     {"$GMRInstanceLayer":"","%Name":"ins_player","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_22F476DB1_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22F476DB1_2_1_1","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":684.0,"y":531.0,},
         {"$GMRInstance":"v4","%Name":"inst_7963DA23_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7963DA23_2_1_1","objectId":{"name":"obj_arma","path":"objects/obj_arma/obj_arma.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":686.0,"y":530.0,},
+        {"$GMRInstance":"v4","%Name":"inst_50114602","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50114602","objectId":{"name":"obj_passar","path":"objects/obj_passar/obj_passar.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_passar","path":"objects/obj_passar/obj_passar.yy",},"propertyId":{"name":"fase","path":"objects/obj_passar/obj_passar.yy",},"resource":{"name":"rm_cabine","path":"rooms/rm_cabine/rm_cabine.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_cabine",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1094.0,"y":492.0,},
       ],"layers":[],"name":"ins_player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"ins_fogo","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"ins_fogo","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"ins_inflamavel","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
