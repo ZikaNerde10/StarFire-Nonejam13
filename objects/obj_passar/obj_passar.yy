@@ -39,5 +39,5 @@
     "path":"sprites/spr_passar/spr_passar.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -25,7 +25,16 @@ else
 window_set_cursor(cr_none)
 
 
-var _velh = keyboard_check(vk_right) - keyboard_check(vk_left);
-var _vely = keyboard_check(vk_down) - keyboard_check(vk_up);
+var _velh = keyboard_check((ord("D"))) - keyboard_check((ord("A")));
+var _vely = keyboard_check((ord("S"))) - keyboard_check((ord("W")));
 
 move_and_collide(_velh * 2,_vely * 2, obj_colisao);
+
+if(_velh != 0 || _vely != 0)
+{
+	sprite_index = spr_player_movendo;
+}
+else
+{
+	sprite_index = spr_player_idle
+}
