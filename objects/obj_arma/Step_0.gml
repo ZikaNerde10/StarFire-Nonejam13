@@ -31,16 +31,21 @@ else
 
 #region atirando
 
+//crio uma variavel temporaria para saber quando eu clico com o botao esquerdo
 var _click = mouse_check_button_pressed(mb_left);
 
+// digo que se eu clicar com o botao esquerdo do mouse eu vou disparar a bala e emitir um som
 if(_click)
 {
+	//setando a direcao baseado na variavel temporaria _dire
 	var _xx = x + lengthdir_x(13,_dire);
 	var _yy = y + lengthdir_y(13,_dire);
 	
+	//criando o tiro na layer do player
 	var _tiro = instance_create_layer(_xx,_yy,"ins_player",obj_bala)
 	_tiro.direction = _dire;
 	
+	//tocando o som.
 	audio_play_sound(snd_bolha,0,false);
 	
 }

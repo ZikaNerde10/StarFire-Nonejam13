@@ -22,15 +22,19 @@ else
 
 #endregion
 
+//Removendo o cursor do mouse para colocar um personalizado.
 window_set_cursor(cr_none)
 
 #region Movimentacao
 
+//fazendo a movimentacao por WASD.
 var _velh = keyboard_check((ord("D"))) - keyboard_check((ord("A")));
 var _vely = keyboard_check((ord("S"))) - keyboard_check((ord("W")));
 
+//colocando a velocidade e a colisao.
 move_and_collide(_velh * 2,_vely * 2, obj_colisao);
 
+//setando a animacao de parado e movendo.
 if(_velh != 0 || _vely != 0)
 {
 	sprite_index = spr_player_movendo;

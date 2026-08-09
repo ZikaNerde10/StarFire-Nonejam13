@@ -1,11 +1,12 @@
 //var _alvo = instance_place(x,y, obj_inflamavel)
 
+//checando se a variavel dono existe e se existir o x e o Y da area recebe o X e o Y do respectivo dono.
 if(instance_exists(dono))
 {
 	x = dono.x;
 	y = dono.y;
 }
-else
+else// se nao destroi ela
 {
 	instance_destroy()
 }

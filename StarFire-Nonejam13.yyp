@@ -56,7 +56,6 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_colisao_bala","path":"objects/obj_colisao_bala/obj_colisao_bala.yy",},},
     {"id":{"name":"obj_colisao","path":"objects/obj_colisao/obj_colisao.yy",},},
-    {"id":{"name":"obj_final","path":"objects/obj_final/obj_final.yy",},},
     {"id":{"name":"obj_fogo","path":"objects/obj_fogo/obj_fogo.yy",},},
     {"id":{"name":"obj_inflamavel","path":"objects/obj_inflamavel/obj_inflamavel.yy",},},
     {"id":{"name":"obj_info_menu","path":"objects/obj_info_menu/obj_info_menu.yy",},},

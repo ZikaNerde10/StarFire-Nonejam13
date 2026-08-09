@@ -9,13 +9,16 @@
 var _x1 = alvo.x;
 var _y1 = alvo.y;
 
-
+//fazendo a camera tambem seguir o mouse
 var _dir = point_direction(_x1,_y1, mouse_x,mouse_y);
 
+//setando a distancia entre o mouse e o player
 var _dist = point_distance(_x1,_y1, mouse_x,mouse_y);
 
+//medindo essa distancia
 _dist = clamp(_dist, -100, 100);
 
+//fazendo a movimentacao mais fluida.
 var _x2 = _x1 + lengthdir_x(_dist,_dir);
 var _y2 = _y1 + lengthdir_y(_dist/2,_dir);
 
