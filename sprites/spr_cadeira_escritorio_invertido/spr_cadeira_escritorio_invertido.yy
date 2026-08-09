@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_cadeira_escritorio_invertido",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
   "bbox_left":46,
   "bbox_right":63,
-  "bbox_top":36,
+  "bbox_top":47,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

@@ -24,6 +24,7 @@ else
 
 window_set_cursor(cr_none)
 
+#region Movimentacao
 
 var _velh = keyboard_check((ord("D"))) - keyboard_check((ord("A")));
 var _vely = keyboard_check((ord("S"))) - keyboard_check((ord("W")));
@@ -38,3 +39,5 @@ else
 {
 	sprite_index = spr_player_idle
 }
+
+#endregion

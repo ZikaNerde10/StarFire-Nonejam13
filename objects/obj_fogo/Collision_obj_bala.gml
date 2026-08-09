@@ -4,4 +4,5 @@ if (instance_exists(alvo))
     alvo.timer_fogo = 0;
 }
 
+audio_play_sound(snd_apagar,0,false);
 instance_destroy(other);
