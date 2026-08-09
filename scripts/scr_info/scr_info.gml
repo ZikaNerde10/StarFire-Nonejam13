@@ -1,3 +1,4 @@
-//global.em_chamas = false;
-
-//nao apredi a usar isso aqui ainda kkk
+function scr_seq_inicio()
+{
+	room_goto(rm_menu)
+}
