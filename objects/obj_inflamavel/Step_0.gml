@@ -5,7 +5,7 @@ if(perto_fogo)
 {
 	timer_fogo++;
 	
-	if(!em_chamas && timer_fogo >= room_speed * 6)
+	if(!em_chamas && timer_fogo >= room_speed * 5)
 	{
 	em_chamas = true;
 
